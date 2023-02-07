@@ -1,0 +1,21 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    todo: ignore
+
+linter:
+  rules:
+    unnecessary_this: true
+    avoid_print: true
+    empty_statements: true
+    iterable_contains_unrelated_type: true
+    literal_only_boolean_expressions: true
+    empty_catches: true
+    file_names: true
+    prefer_single_quotes: true
+
+    # disabling rules
+    omit_local_variable_types: false
+    constant_identifier_names: false
+    prefer_const_constructors: false
