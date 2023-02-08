@@ -19,6 +19,9 @@ class SvgIcons {
   static const String person = '${svgPath}person.svg';
   static const String letter = '${svgPath}letter.svg';
   static const String search = '${svgPath}search.svg';
+  static const String arrowDown = '${svgPath}arrow_down.svg';
+  static const String collection = '${svgPath}collection.svg';
+  static const String save = '${svgPath}save.svg';
 
   static const String bookSession = '${svgPath}book_session.svg';
   static const String virtualAssistant =

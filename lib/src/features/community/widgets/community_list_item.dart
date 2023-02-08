@@ -1,5 +1,6 @@
 import 'package:assorted_layout_widgets/assorted_layout_widgets.dart';
 import 'package:faramove/src/core/app_colors.dart';
+import 'package:faramove/src/core/app_routes.dart';
 import 'package:faramove/src/core/app_theme.dart';
 import 'package:faramove/src/core/svg_icons.dart';
 import 'package:faramove/src/widgets/platform_svg.dart';
@@ -105,7 +106,8 @@ class CommunityListItem extends StatelessWidget {
                             style: ElevatedButton.styleFrom(
                               backgroundColor: AppColors.wellnessBlue,
                             ),
-                            onPressed: () {},
+                            onPressed: () =>
+                                Navigator.pushNamed(context, AppRoutes.audio),
                             child: Text('Join',
                                 style: AppTheme.subtitle1
                                     .copyWith(color: Colors.white)),
